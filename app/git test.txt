@@ -1,3 +1,0 @@
-I'll add this file to the app directory of
-the ticketee RAILS application to see if it's picked up
-by GIT
