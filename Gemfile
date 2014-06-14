@@ -1,7 +1,9 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.1.0'
-
+#Required to cause cucumber-rails to load the files in the book
+#  BUT ITS NO LONGER AVAILABLE!
+# gem 'cucumber-rails' '1.0.6'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
