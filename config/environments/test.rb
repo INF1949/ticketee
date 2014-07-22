@@ -43,4 +43,6 @@ Ticketee::Application.configure do
     # Recommended by Devise installation
   config.action_mailer.default_url_options = {:host =>'localhost:3000' }
 
+  # Store emails internally for testing.  delivery_method defaults to :smtp
+  config.action_mailer.delivery_method = :test
 end
